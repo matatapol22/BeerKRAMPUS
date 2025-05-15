@@ -6,36 +6,53 @@ a{
     text-decoration: none;
 }
 
-header{
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 55px;
+    color: #717744;
+    padding-right: 10%;
+}
+
+h2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 50px;
+    color: #000;
+    padding-right: 15%;
+}
+
+.header{
     max-width: 100%;
-    height: 124px;
+    height: 100px;
     background-color: #717744;
-    display: inline-block;
-    display: flex;
-    padding-left: 15%;
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .logo{
     display: flex;
-    align-items: center;
-    margin-top: 16px;
+    gap: 12px;
+}
+
+.logo-img{
+    width: 50px;
+    height: 80px;
 }
 
 .logo-p{
     font-family: "Press Start 2P", system-ui;
-    font-size: 32px;
+    font-size: 30px;
     color: #FABE2A;
-    margin-left: 11px;
-}
-
-nav{
-    margin-top: 40px;
-    margin-left: 30%;
 }
 
 ul{
@@ -49,17 +66,60 @@ li{
 
 li a{
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     color: #FFF;
 }
 
 .main-rect{
     margin-top: 100px;
-    width: 1400px;
+    width: 1200px;
     height: 652px;
     background-color: #FABE2A;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .main-img{
     position: absolute;
+    top: 14%;
+    left: 22%;
+}
 
+.about_mark{
+    margin-top: 120px;
+}
+
+.about_mark_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.am-text-p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    color: #000;
+}
+
+.am-rect{
+    width: 436px;
+    height: 379px;
+    background-color: #717744;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 62px;
+}
+
+.am-rect-p1{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.am-rect-p2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 64px;
+    color: #FABE2A;
 }
